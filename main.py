@@ -9,7 +9,7 @@ API_URL = "https://api.deepseek.com/chat/completions"  # kerak bo‘lsa o‘zgar
 MODEL_NAME = "deepseek-r1"  # model nomi shu bo‘lsa
 
 def start(update, context):
-    update.message.reply_text("Assalomu alaykum! Men DeepSeek R1 asosidagi AI yordamchingman.")
+    update.message.reply_text("Hi,How Can I help you?")
 
 def chat_with_deepseek(user_text):
     headers = {
