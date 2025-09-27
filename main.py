@@ -3,7 +3,7 @@ from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
 
 # 🔹 Bu joylarni o'zingizniki bilan almashtiring:
 TELEGRAM_BOT_TOKEN = "8487100207:AAHkto2fdmSd19Rxyglcy5ldNe5vGvXiQ4Y"
-DEEPSEEK_API_KEY = "YOUR"
+DEEPSEEK_API_KEY = "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"
 
 API_URL = "https://api.deepseek.com/chat/completions"  # kerak bo‘lsa o‘zgartirasiz
 MODEL_NAME = "deepseek-r1"  # model nomi shu bo‘lsa
